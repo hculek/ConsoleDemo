@@ -22,7 +22,8 @@ namespace hculekConsoleDemo
             "\n 2 = Fibonacci" +
             "\n 3 = Spell text backwards" +
             "\n 4 = Trim text and change all to lower case" +
-            "\n 5 = Remove all but first $ character from text");
+            "\n 5 = Remove all but first $ character from text" +
+            "\n 6 = Sum even numbers in array");
 
             int input = 0;
 
@@ -67,6 +68,10 @@ namespace hculekConsoleDemo
                 case 5:
                     Strings.RemoveCharacters();
                     break;
+
+                case 6:
+                    MathSolutions.ArraySumEvenNumbers();
+                    break;
             }
             Console.WriteLine("\n");
             Menu();
@@ -78,6 +83,8 @@ namespace hculekConsoleDemo
             Fibonacci.Get();
             Strings.ReverseString();
             Strings.TrimAndLower();
+            Strings.RemoveCharacters();
+            MathSolutions.ArraySumEvenNumbers();
         }
 
 
