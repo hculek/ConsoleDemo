@@ -21,7 +21,8 @@ namespace hculekConsoleDemo
             "\n 1 = Try all options" +
             "\n 2 = Fibonacci" +
             "\n 3 = Spell text backwards" +
-            "\n 4 = Trim text and change all to lower case");
+            "\n 4 = Trim text and change all to lower case" +
+            "\n 5 = Remove all but first $ character from text");
 
             int input = 0;
 
@@ -61,6 +62,10 @@ namespace hculekConsoleDemo
                     break;
                 case 4:
                     Strings.TrimAndLower();
+                    break;
+
+                case 5:
+                    Strings.RemoveCharacters();
                     break;
             }
             Console.WriteLine("\n");
