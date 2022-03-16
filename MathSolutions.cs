@@ -20,7 +20,7 @@ namespace hculekConsoleDemoModules
             var result = numbers.Where(i => i % 2 == 0).Sum(i=> (long)i);
 
 
-            Console.WriteLine("Sum of even numbers in array is {0}", result);
+            Console.WriteLine("\nSum of even numbers in array is {0}", result);
 
         }
 
